@@ -1,5 +1,5 @@
 FROM nginx
 EXPOSE 80
-MAINTAINER vamsi
+MAINTAINER Hari
 LABEL This is for the task
 COPY index.html .
