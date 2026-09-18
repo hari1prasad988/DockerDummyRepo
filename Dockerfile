@@ -1,7 +1,5 @@
-FROM httpd
-MAINTAINER name mustafa
-LABEL this is my app image
+FROM nginx
 EXPOSE 80
-COPY index.html .
-ADD <url-from-internet> .
-
+MAINTAINER vamsi
+LABEL This is for the task
+COPY index.html /usr/share/nginx/html
